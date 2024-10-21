@@ -1,0 +1,16 @@
+[
+  {
+    "ConsumptionId": 1,
+    "ConsumerId": 1,
+    "Month": 7,
+    "Year": 2024,
+    "UnitsConsumed": 150
+  },
+  {
+    "ConsumptionId": 2,
+    "ConsumerId": 2,
+    "Month": 7,
+    "Year": 2024,
+    "UnitsConsumed": 120
+  }
+]

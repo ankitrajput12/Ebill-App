@@ -1,0 +1,12 @@
+[
+  {
+    "CityId": 1,
+    "CityName": "New York",
+    "TaxRate": 0.08
+  },
+  {
+    "CityId": 2,
+    "CityName": "Los Angeles",
+    "TaxRate": 0.09
+  }
+]

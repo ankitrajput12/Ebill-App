@@ -1,0 +1,6 @@
+C:\Users\ankit\OneDrive\Desktop\Evaluation4\EvalApp1\EvalApp1\obj\Debug\net8.0\EvalApp1.csproj.AssemblyReference.cache
+C:\Users\ankit\OneDrive\Desktop\Evaluation4\EvalApp1\EvalApp1\obj\Debug\net8.0\EvalApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ankit\OneDrive\Desktop\Evaluation4\EvalApp1\EvalApp1\obj\Debug\net8.0\EvalApp1.AssemblyInfoInputs.cache
+C:\Users\ankit\OneDrive\Desktop\Evaluation4\EvalApp1\EvalApp1\obj\Debug\net8.0\EvalApp1.AssemblyInfo.cs
+C:\Users\ankit\OneDrive\Desktop\Evaluation4\EvalApp1\EvalApp1\obj\Debug\net8.0\EvalApp1.csproj.CoreCompileInputs.cache
+C:\Users\ankit\OneDrive\Desktop\Evaluation4\EvalApp1\EvalApp1\obj\Debug\net8.0\EvalApp1.sourcelink.json

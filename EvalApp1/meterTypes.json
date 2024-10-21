@@ -1,0 +1,10 @@
+[
+  {
+    "MeterTypeId": 1,
+    "MeterTypeName": "Residential"
+  },
+  {
+    "MeterTypeId": 2,
+    "MeterTypeName": "Commercial"
+  }
+]

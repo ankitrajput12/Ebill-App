@@ -1,0 +1,16 @@
+[
+  {
+    "ConsumerId": 1,
+    "Name": "John Doe",
+    "Address": "123 Elm St",
+    "CityId": 1,
+    "MeterTypeId": 1
+  },
+  {
+    "ConsumerId": 2,
+    "Name": "ACME Corp",
+    "Address": "456 Oak St",
+    "CityId": 2,
+    "MeterTypeId": 2
+  }
+]
