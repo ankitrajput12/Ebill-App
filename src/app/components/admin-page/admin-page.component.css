@@ -1,0 +1,27 @@
+/* Styling for the card component */
+.card {
+    border-radius: 0.5rem;
+  }
+  
+  /* Styling for the table */
+  .table {
+    margin-bottom: 0;
+  }
+  
+  /* Remove table border */
+  .table-bordered {
+    border: none;
+  }
+  
+  /* Add border radius to table cells */
+  .table td, .table th {
+    border: 1px solid #dee2e6;
+  }
+  
+  /* Add styling to the no data row */
+  .mat-no-data-row .mat-cell {
+    text-align: center;
+    font-style: italic;
+    color: #6c757d;
+  }
+  

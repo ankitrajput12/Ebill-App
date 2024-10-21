@@ -1,0 +1,78 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #343a40; /* Dark background color */
+    color: #ffffff; /* White text color for better contrast */
+}
+
+.header h1 {
+    margin: 0;
+    color: #f8f9fa; /* Light color for the heading text */
+    font-size: 2rem; /* Adjust the font size for better visibility */
+    display: flex;
+    align-items: center; /* Align text and icon vertically */
+}
+
+.header h1 span {
+    color: #ffc107; /* Vibrant yellow for the span text */
+}
+
+.icon-style {
+    margin-left: 10px; /* Space between the title and icon */
+    width: 40px; /* Adjust width */
+    height: 40px; /* Adjust height */
+   
+    transition: transform 0.3s, filter 0.3s; /* Smooth transition on hover */
+}
+
+.icon-style:hover {
+    transform: scale(1.1); /* Slightly enlarge the image on hover */
+    filter: brightness(1.2); /* Make the image brighter on hover */
+}
+
+.header .btn-group {
+    margin-left: auto;
+}
+
+.header .btn {
+    margin-left: 10px; /* Add margin between buttons */
+    padding: 8px 16px; /* Adjust padding for better button size */
+    border-radius: 8px; /* Rounded corners for the buttons */
+    font-weight: bold; /* Make button text bold */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+/* Button Styles */
+.header .btn-outline-light {
+    border: 2px solid #ffffff; /* White border for outline button */
+    color: #ffffff; /* White text color */
+    background-color: transparent; /* Transparent background */
+}
+
+.header .btn-outline-light:hover {
+    background-color: #ffffff; /* White background on hover */
+    color: #343a40; /* Dark text color on hover */
+}
+
+.header .btn-success {
+    background-color: #28a745; /* Attractive green color for registration button */
+    border: none; /* Remove border for a cleaner look */
+}
+
+.header .btn-success:hover {
+    background-color: #218838; /* Darker green on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+.header .btn-warning {
+    background-color: #ffc107; /* Warning color for button */
+    border: none; /* Remove border for a cleaner look */
+    color: #343a40; /* Dark text color for better readability */
+}
+
+.header .btn-warning:hover {
+    background-color: #e0a800; /* Darker yellow on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}

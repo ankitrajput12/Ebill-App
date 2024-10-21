@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+body,html{
+
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), /* Adjust the rgba values to control the fade effect */
+        rgba(0, 0, 0, 0.5)
+    ), url('./assets/photo-1442504028989-ab58b5f29a4a.avif');
+    background-size: cover; /* Ensures the background image covers the whole area */
+   
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

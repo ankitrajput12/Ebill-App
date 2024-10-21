@@ -1,0 +1,9 @@
+<header class="header sticky-top bg-dark">
+  <h1>Live<span>Tunes</span> <img src="assets/music.png" alt="Sound Icon" class="icon-style"></h1>
+  <div class="btn-group">
+      <!-- Use AuthService to check if admin is logged in -->
+      <button id="adminButton" *ngIf="!authService.isAdminUserLoggedIn()" class="btn btn-outline-light" routerLink="/admin">Login</button>
+      <button id="registrationButton" *ngIf="!authService.isAdminUserLoggedIn()" class="btn btn-outline-light" routerLink="/eventdetails">Registration</button>
+      <button id="logoutButton" *ngIf="authService.isAdminUserLoggedIn()" class="btn btn-warning" routerLink="/admin" (click)="logout()">LogOut</button>
+  </div>
+</header>

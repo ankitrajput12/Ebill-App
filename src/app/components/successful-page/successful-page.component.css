@@ -1,0 +1,30 @@
+.card {
+    background-color: #f8d7da; /* Light red background */
+    height: 100%;
+    margin-bottom: 10px;
+  }
+
+  .card-img-top {
+    border-radius: 50%;
+    border: 3px solid #fff;
+  }
+
+  .animated-fluctuate {
+    animation: fluctuate 3s infinite;
+  }
+
+  @keyframes fluctuate {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+
+  .btn-primary {
+    background-color: #dc3545; /* Red button color */
+    border-color: #dc3545;
+  }
+
+  .btn-primary:hover {
+    background-color: #c82333; /* Darker red on hover */
+    border-color: #c82333;
+  }

@@ -1,0 +1,45 @@
+.card {
+  border: none; /* Remove card border */
+  border-radius: 8px; /* Add rounded corners */
+  overflow: hidden; /* Hide any overflow from images or content */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+ 
+  background-color: #333333; /* Charcoal gray background */
+ 
+  
+  
+}
+
+.card-body {
+  padding: 10px; /* Remove default padding */
+}
+
+.img-fluid {
+  display: block; /* Ensure image takes up full width */
+  width: 100%; /* Make image take full width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.rounded-top {
+  border-top-left-radius: 0; /* Remove top-left border radius */
+  border-top-right-radius: 0; /* Remove top-right border radius */
+}
+
+.card-content {
+  padding: 20px; /* Add padding to card content */
+  background-color: whitesmoke; /* Light background color for contrast */
+}
+
+.card-content h1 {
+  font-size: 1.75rem; /* Adjust heading size */
+  font-weight: 600; /* Adjust font weight */
+  margin-bottom: 1.5rem; /* Increase bottom margin */
+}
+
+.card-content p {
+  margin-bottom: 1rem; /* Add margin between paragraphs */
+}
+
+.card-content strong {
+  font-weight: 700; /* Make strong text bold */
+}

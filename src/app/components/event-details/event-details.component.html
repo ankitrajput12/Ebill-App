@@ -1,0 +1,20 @@
+<div class="container mt-2">
+  <div class="row">
+    <div class="col-md-4 mb-3" *ngFor="let event of events" (click)="onCardClick(event)">
+      <div class="card">
+        <img [src]="event.imageUrl" alt="{{ event.name }}" class="event-image">
+        <div class="card-body mt-1">
+          <p class="card-title">{{ event.name }}</p>
+          <p class="card-text">{{ event.description }}</p>
+          <p class="card-text"><strong>Time:</strong> {{ event.time }}</p>
+          <p class="card-text"><strong>Organizer:</strong> {{ event.organizer.organizerName }}</p>
+          <p class="card-text"><strong>Contact:</strong> {{ event.organizer.contact }}</p>
+          <p class="card-text"><strong>Email:</strong> {{ event.organizer.email }}</p>
+          <p class="card-text"><strong>Organization:</strong> {{ event.organizer.organization }}</p>
+          <p class="card-text"><strong>Price:</strong> &#8377;{{ event.price }}</p>
+          <p class="card-text"><strong>Total Tickets:</strong> {{ event.totalTickets }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+.footer {
+  background-color: #2E2E2E; /* Deep Charcoal or choose another background color from above */
+  color: #D3D3D3; /* Light Gray or choose another text color from above */
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  font-family: 'Arial', sans-serif;
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+span {
+  color: #D3D3D3; /* Matches the footer text color */
+}

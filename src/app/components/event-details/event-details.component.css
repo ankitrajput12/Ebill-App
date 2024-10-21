@@ -1,0 +1,52 @@
+
+.event-image {
+  width: 100%; 
+  height: 150px; 
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px; 
+  position: relative; 
+}
+
+/* Card body styling */
+.card-body {
+
+  background-color:blanchedalmond; 
+  border-radius: 0 0 12px 12px; 
+  position: relative;
+
+}
+
+
+.card-title {
+  color: #dc3545;
+  margin-bottom: 1rem;
+  font-size: 1.5rem; 
+  text-decoration: none; 
+}
+
+.card-text {
+  color: #333; 
+  margin-bottom: 0.5rem;
+}
+
+
+.card {
+  border: none;
+  border-radius: 12px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  background-color: black; 
+  transition: transform 0.3s, box-shadow 0.3s; 
+  overflow: hidden; 
+}
+
+/* Add hover effect */
+.card:hover {
+  transform: scale(1.03); /* Slightly enlarge the card on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
+}
+
+/* Adjust container and row spacing */
+.container {
+  margin-top: 2rem; /* Add margin from top */
+}

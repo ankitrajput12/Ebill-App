@@ -1,0 +1,47 @@
+<div class="container mt-2 mb-3">
+  <div class="row justify-content-center">
+    <div class="col-lg-6 mb-4">
+      <div class="card bg-light border-0 shadow-sm rounded">
+        <!-- Card Header -->
+        <div class="card-header bg-transparent border-0 text-center">
+          <img src="../../../assets/5839078.png" class="card-img-top animated-fluctuate" alt="Success Image" style="width: 80px; height: 80px;">
+        </div>
+        <!-- Card Body -->
+        <div class="card-body text-center">
+          <h3 class="card-title mb-4">Registration Successful!</h3>
+          <div class="text-left">
+            <!-- Registration Details -->
+            <div class="mb-3">
+              <h5 class="text-muted">Name:</h5>
+              <p class="card-text">{{ registrationData.name }}</p>
+            </div>
+            <div class="mb-3">
+              <h5 class="text-muted">Phone No:</h5>
+              <p class="card-text">{{ registrationData.phone }}</p>
+            </div>
+            <div class="mb-3">
+              <h5 class="text-muted">Event Time:</h5>
+              <p class="card-text">{{ registrationData.eventTime }}</p>
+            </div>
+            <div class="mb-3">
+              <h5 class="text-muted">Event Name:</h5>
+              <p class="card-text">{{ registrationData.eventName }}</p>
+            </div>
+            <div class="mb-3">
+              <h5 class="text-muted">Number of Tickets:</h5>
+              <p class="card-text">{{ registrationData.tickets }}</p>
+            </div>
+            <div class="mb-3">
+              <h5 class="text-muted">Generated ID:</h5>
+              <p class="card-text">{{ registrationData.id }}</p>
+            </div>
+          </div>
+          <!-- Back Button -->
+          <div class="d-flex justify-content-center mt-4">
+            <a href="/registrationPage" class="btn btn-primary">Back to Registration</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

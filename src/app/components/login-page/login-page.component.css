@@ -1,0 +1,36 @@
+.card {
+    background-color:lightblue; /* or #f5c6cb */
+  }
+  
+  .align-items-center{
+
+    margin-top:150px;
+  }
+  
+  .form-control {
+    background-color: #ffffff; /* or #f0f0f0 */
+    border: 1px solid #dcdcdc;
+  }
+  
+ 
+  
+  .text-danger {
+    color: #ff0000; /* for error messages */
+  }
+
+ 
+
+.vh-100 {
+    height: 100vh;
+}
+
+
+
+
+
+
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
